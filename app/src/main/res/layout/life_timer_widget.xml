@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="horizontal"
+    android:padding="2dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/target_event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif-light"/>
+
+        <TextView
+            android:id="@+id/remaining_hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="sans-serif-thin"/>
+
+        <TextView
+            android:id="@+id/hours_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hours remaining"
+            android:textSize="18sp"
+            android:textColor="#808080"
+            android:fontFamily="sans-serif-light"/>
+    </LinearLayout>
+
+</LinearLayout> 
